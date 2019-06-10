@@ -1,0 +1,28 @@
+{
+  "name": "cosmos-sdk-monitor",
+  "version": "0.1.0",
+  "description": "Node script to check the status of a cosmos node",
+  "main": "index.js",
+  "dependencies": {
+    "ain2": "^3.0.0",
+    "ws": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cosmos",
+    "test",
+    "monitor"
+  ],
+  "author": "ChainLayer",
+  "homepage": "https://github.com/chainlayer/cosmos-sdk-monitor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chainlayer/cosmos-sdk-monitor.git"
+  },
+  "private": true,
+  "main": "index.js",
+  "license": "MIT"
+}

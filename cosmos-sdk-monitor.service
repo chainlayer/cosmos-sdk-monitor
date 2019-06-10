@@ -1,0 +1,14 @@
+[Unit]
+Description=Cosmos-SDK-Monitoring
+Documentation=https://github.com/chainlayer/cosmos-sdk-monitor
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/node /root/cosmos-sdk-monitor/index.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
