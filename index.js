@@ -8,6 +8,7 @@ const ws = new WebSocket('ws://127.0.0.1:26657/websocket')
 let height = 0
 let failedblocks = 0
 let successfullblocks = 0
+console.info("Number of consequtive failed blocks", failedblocks)
 
 ws.on('open', function open() {
   ws.send('{     "jsonrpc": "2.0",     "method": "subscribe",     "id": "0",     "params": {         "query": "tm.event=\'NewBlock\'"     } }')
