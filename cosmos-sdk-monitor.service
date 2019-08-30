@@ -7,7 +7,7 @@ After=network.target
 Type=simple
 User=root
 ExecStart=/usr/bin/node /root/cosmos-sdk-monitor/index.js
-Restart=on-failure
+Restart=always
 RestartSec=3
 
 [Install]
